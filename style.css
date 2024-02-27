@@ -361,6 +361,16 @@ p{
   overflow: hidden;
 }
 
+.service-item1 ul li{
+  list-style: none;
+  margin: 20px 100px;
+  padding: 5px;
+  font-size: 1.5rem;
+  color:#E7E7E7;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
 #services .service-item2{
   flex-basis: 80%;
   display: flex;
@@ -375,6 +385,16 @@ p{
   position: relative;
   z-index: 1;
   overflow: hidden;
+}
+
+.service-item2 ul li{
+  list-style: none;
+  margin: 20px 100px;
+  padding: 5px;
+  font-size: 1.5rem;
+  color:#E7E7E7;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 #services .service-item3{
@@ -393,6 +413,16 @@ p{
   overflow: hidden;
 }
 
+.service-item3 ul li{
+  list-style: none;
+  margin: 20px 100px;
+  padding: 5px;
+  font-size: 1.5rem;
+  color:#E7E7E7;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
 #services .service-item4{
   flex-basis: 80%;
   display: flex;
@@ -409,6 +439,48 @@ p{
   overflow: hidden;
 }
 
+.service-item4 ul li{
+  list-style: none;
+  margin: 20px 100px;
+  padding: 5px;
+  font-size: 1.5rem;
+  color:#E7E7E7;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#services .service-item5{
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url('/images/13.jpg');
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#services .service-item6{
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url('/images/13.jpg');
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
 #services .service-item1::after{
   content: '';
   position: absolute;
@@ -416,7 +488,7 @@ p{
   top: 0;
   height: 100%;
   width: 100%;
-  background-color:#485563;
+  background-color:#155263;
   opacity: 0.9;
   z-index: -1;
 }
@@ -428,7 +500,7 @@ p{
   top: 0;
   height: 100%;
   width: 100%;
-  background-color:#485563;
+  background-color:#155263;
   opacity: 0.9;
   z-index: -1;
 }
@@ -440,7 +512,7 @@ p{
   top: 0;
   height: 100%;
   width: 100%;
-  background-color:#485563;
+  background-color:#155263;
   opacity: 0.9;
   z-index: -1;
 }
@@ -452,7 +524,30 @@ p{
   top: 0;
   height: 100%;
   width: 100%;
-  background-color:#485563;
+  background-color:#155263;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+#services .service-item5::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color:#155263;
+  opacity: 0.9;
+  z-index: -1;
+}
+#services .service-item6::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color:#155263;
   opacity: 0.9;
   z-index: -1;
 }
@@ -487,6 +582,20 @@ p{
 #services .service-item4 h2{
   font-size: 2rem;
   color: #E7E7E7;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#services .service-item5 h2{
+  font-size: 2rem;
+  color:#E7E7E7;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#services .service-item6 h2{
+  font-size: 2rem;
+  color:#E7E7E7;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -549,12 +658,12 @@ p{
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background-color:#485563;
+  background-color:#53a8b6;
   color: #E7E7E7;
 }
 
 #projects .project-info h2{
-  color: #008C8F;
+  color: #132743;
 }
 
 #projects .project-info h1{
@@ -563,7 +672,7 @@ p{
 }
 
 #projects .project-info h1 span{
-  color: #008C8F;
+  color: #155263;
 }
 
 
@@ -572,21 +681,21 @@ p{
 }
 
 #projects .project-info h2:hover{
-  color: #008C8F;
+  color: #233142;
 }
 
 #projects .project-info h2:active{
-  color: #33CC00;
+  color: #f95959;
 }
 
 
 #projects .project-info p:focus{
-  color: #008C8F;
+  color: #155263;
 }
 
 
 #projects .project-info p span{
-  color:#008C8F;
+  color: #155263;
 }
 
 
@@ -784,7 +893,7 @@ p{
 
 /*Footer*/
 #footer{
-  background-color:#485563;
+  background-color: #12343b;
 }
 
 #footer .footer{
@@ -901,6 +1010,15 @@ p{
     margin: 2.5%;
   }
 
+  #services .service-bottom .service-item5{
+    flex-basis: 45%;
+    margin: 2.5%;
+  }
+
+  #services .service-bottom .service-item6{
+    flex-basis: 45%;
+    margin: 2.5%;
+  }
 
   /*Project*/
   #projects .project-item{
@@ -1076,6 +1194,16 @@ p{
   }
 
   #services .service-bottom .service-item4{
+    flex-basis: 22%;
+    margin: 1.5%;
+  }
+
+  #services .service-bottom .service-item5{
+    flex-basis: 22%;
+    margin: 1.5%;
+  }
+
+  #services .service-bottom .service-item6{
     flex-basis: 22%;
     margin: 1.5%;
   }
